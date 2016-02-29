@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 3.6.0, 2016-02-26T15:47:01. -->
+<!-- Written by QtCreator 3.6.0, 2016-02-29T13:50:30. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -478,7 +478,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/projects/DicomAnonymizer/DicomAnonymizer.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
-    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments">1 D:\MRIData\1.3.12.2.1107.5.2.7.20107.4.0.126179078015700.dcm</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments">1 1 1 1 1 D:\MRIData\1.3.12.2.1107.5.2.7.20107.4.0.126179078015700.dcm</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">DicomAnonymizer.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseTerminal">true</value>

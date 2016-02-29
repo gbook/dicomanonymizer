@@ -31,7 +31,8 @@ else {
     else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/gdcmbin/bin/Debug/
 }
 
-LIBS += -lgdcmMSFF \
+LIBS += \
+    -lgdcmMSFF \
     -lgdcmCommon \
     -lgdcmDICT \
     -lgdcmDSED \
@@ -43,5 +44,5 @@ LIBS += -lgdcmMSFF \
     -lgdcmjpeg16 \
     -lgdcmjpeg8 \
     -lgdcmopenjpeg \
-    -lgdcmzlib \
+    -lgdcmzlib
     -lsocketxx
