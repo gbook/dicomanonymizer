@@ -118,7 +118,7 @@ int main(int argc, char *argv[])
 
     gdcm::Anonymizer anon;
     if (AnonymizeOneFileDumb(anon,f.toStdString().c_str(),f.toStdString().c_str(),empty_tags,remove_tags,replace_tags,false)) {
-        cout<<"Successfully anonymized"<<endl;
+        cout<<"Successfully anonymized ["<<f.toStdString().c_str()<<"]"<<endl;
     }
     else {
         cout<<"Error anonymizing"<<endl;
@@ -146,10 +146,10 @@ QString CheckInputParams(int PatientInfoName, int PatientInfoNonName, int Instit
 
     QFileInfo checkFile(f);
     if (!checkFile.exists() || !checkFile.isFile())
-        return "PatientInfoName parameter is not valid";
+        return "Filename is not valid";
 
     if ((dbg != 0) && (dbg != 1))
-        return "PatientInfoName parameter is not valid";
+        return "Debug parameter is not valid";
 
 
     return "";
