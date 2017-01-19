@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     if ((argc != 7) && (argc != 8)) {
-        PrintUsage(QString("Incorrect number of parameters [%1]").arg(argc));
+        PrintUsage(QString("Incorrect number of parameters [%1]. Should be 6 or 7").arg(argc));
         exit(0);
     }
 
@@ -123,6 +123,7 @@ int main(int argc, char *argv[])
     else {
         cout<<"Error anonymizing"<<endl;
     }
+    exit(0);
 
     return a.exec();
 }
