@@ -84,6 +84,7 @@ int main(int argc, char *argv[])
         if (ds.FindDataElement(gdcm::Tag(0x0008,0x0094))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x0094), anonString) ); /* ReferringPhysicianTelephoneNumber */
         if (ds.FindDataElement(gdcm::Tag(0x0008,0x0096))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x0096), anonString) ); /* ReferringPhysicianIDSequence */
         if (ds.FindDataElement(gdcm::Tag(0x0008,0x1010))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x1010), anonString) ); /* StationName */
+        if (ds.FindDataElement(gdcm::Tag(0x0008,0x1048))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x1048), anonString) ); /* PhysiciansOfRecord */
         if (ds.FindDataElement(gdcm::Tag(0x0008,0x1050))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x1050), anonString) ); /* PerformingPhysicianName */
         if (ds.FindDataElement(gdcm::Tag(0x0008,0x1060))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x1060), anonString) ); /* NameOfPhysicianReadingStudy */
         if (ds.FindDataElement(gdcm::Tag(0x0008,0x1070))) replace_tags.push_back( std::make_pair(gdcm::Tag(0x0008,0x1070), anonString) ); /* OperatorsName */
